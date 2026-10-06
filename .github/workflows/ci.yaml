@@ -13,9 +13,9 @@ jobs:
       
       - name: Configurar Java
         uses: actions/setup-java@v4
-          with:
-            java-version: '17'
-            distribution: 'temurin'
+        with:
+          java-version: '17'
+          distribution: 'temurin'
 
       - name: Executar testes
         run: mvn test
