@@ -17,5 +17,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Executar Limpeza
+        run: mvn clean
+        
       - name: Executar testes
         run: mvn test
