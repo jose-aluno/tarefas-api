@@ -2,7 +2,7 @@ name: Integração Contínua
 
 on:
   push:
-  pull-request:
+  pull_request:
 
 jobs:
   qualidade:
